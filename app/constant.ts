@@ -1,7 +1,7 @@
-export const OWNER = "Yidadaa";
-export const REPO = "ChatGPT-Next-Web";
-export const REPO_URL = `https://xielaoban13.github.io/home.github.io/`;
-export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;
+export const OWNER = "xielaoban13.github.io";
+export const REPO = "home.github.io";
+export const REPO_URL = `https://remarkable-marzipan-a149cb.netlify.app/`;
+export const ISSUE_URL = `https://${OWNER}/${REPO}/`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
 export const FETCH_TAG_URL = `https://api.github.com/repos/${OWNER}/${REPO}/tags?per_page=1`;
