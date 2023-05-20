@@ -119,10 +119,36 @@ export function SideBar(props: { className?: string }) {
       }`}
     >
       <div className={styles["sidebar-header"]}>
-        <div className={styles["sidebar-title"]}>ChatGPT Dream</div>
-        <div className={styles["sidebar-sub-title"]}>
-          DREAM💖BLUE
-        </div>
+        <div className={styles["sidebar-title"]}>DREAM💖BLUE</div>
+        import React, { Component } from 'react';
+
+class MyComponent extends Component {
+
+  componentDidMount() {
+
+    const script = document.createElement('script');
+
+    script.src = 'https://v1.hitokoto.cn/?encode=js&select=%23hitokoto';
+
+    script.defer = true;
+
+    document.body.appendChild(script);
+
+  }
+        render() {
+
+    return (
+
+      <div id="hitokoto"></div>
+
+    );
+
+  }
+
+}
+
+export default MyComponent;
+        
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
         </div>
