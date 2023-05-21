@@ -1,6 +1,6 @@
 export const OWNER = "xielaoban13.github.io";
 export const REPO = "home.github.io";
-export const REPO_URL = `https://remarkable-marzipan-a149cb.netlify.app/`;
+export const REPO_URL = `https://dreamzhm519.eu.org/`;
 export const ISSUE_URL = `https://${OWNER}/${REPO}/`;
 export const UPDATE_URL = `${REPO_URL}#keep-updated`;
 export const FETCH_COMMIT_URL = `https://api.github.com/repos/${OWNER}/${REPO}/commits?per_page=1`;
